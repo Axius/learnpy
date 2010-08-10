@@ -24,13 +24,3 @@
 #def main():
 #    print sys.argv " Hello, crazy nanny"
 
-
-
-def MyAddress (myName):
-    print myName
-    print "Rentea Florin"
-    print "23 Main Street"
-    print "Sibiu, Sadu, Romania"
-    print "K2M 2E9"
-printMyAddress
-
