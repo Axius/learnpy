@@ -1,0 +1,526 @@
+README for the VLC media player
+===============================
+
+The VideoLAN web site . . . http://www.videolan.org/
+Documentation . . . . . . . http://www.videolan.org/doc/
+Support . . . . . . . . . . http://www.videolan.org/support/
+Forums  . . . . . . . . . . http://forum.videolan.org/
+Wiki  . . . . . . . . . . . http://wiki.videolan.org/
+The Developers site . . . . http://www.videolan.org/developers/vlc.html
+
+ABOUT-NLS          - Notes on the Free Translation Project.
+AUTHORS            - Main VLC authors.
+COPYING            - The GPL license.
+ChangeLog          - The VLC ChangeLog.
+HACKING            - Hacking VLC.
+INSTALL            - Installation instructions.
+INSTALL.win32      - Installation instructions for the Win32 version of VLC.
+NEWS               - Important modifications between the releases.
+README             - This file.
+THANKS             - All VLC contributors.
+bindings/          - Bindings around LibVLC.
+extras/analyser    - Code analyser and editor specific files.
+extras/buildsystem - different buildsystems specific files.
+extras/contrib     - external libraries retrieving facilities for systems that
+                     don't have package manager.
+extras/deprecated  - Now deprecated files.
+extras/misc        - Files that don't fit in the other extras/ categories.
+extras/package     - VLC packaging specific files such as spec files.
+include/           - Include files
+doc/               - Miscellaneous documentation.
+libs/              - libraries that we host.
+po/                - languages related files.
+projects/          - projects that uses libVLC such as the web browsers plugin.
+share/             - Common Resources files.
+src/               - VLC and libvlc source code.
+http://mywiki.wooledge.org/BashPitfalls/
+http://www.stearns.org/doc/ssh-techniques-two.current.html
+http://similicio.us/
+http://bash.cyberciti.biz/guide/Main_Page
+http://www.scottklarr.com/topic/115/linux-unix-cheat-sheets-the-ultimate-collection/
+http://www.thehazeltree.org/
+http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
+http://freescienceonline.blogspot.com/2007/11/computer-science-video-lectures.html
+http://www.wikihow.com/Remove-Windows-Genuine-Advantage-Notifications
+http://jc-schools.net/tutorials/tools/science-hs.html
+http://cb.vu/unixtoolbox.xhtml
+http://www.catonmat.net/blog/bash-vi-editing-mode-cheat-sheet/
+http://ocw.mit.edu/OcwWeb/Physics/8-03Fall-2004/VideoLectures/
+http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
+http://wordaligned.org/articles/essential-python-reading-list
+http://news.bbc.co.uk/2/hi/south_asia/8299780.stm
+http://www.linuxquestions.org/blog/shylock-418698/2009/9/16/howto-compile-2.6.31-kernel-in-slackware-13.0-2264/
+http://www.muppetlabs.com/library/tech/tutorials/
+https://engineering.purdue.edu/ECN/Support/KB
+http://www.onlineclasses.org/2009/10/11/100-free-tools-to-tutor-yourself-in-anything/comment-page-1/#comment-474/
+http://www.mysoju.com/kingdom-of-the-winds/
+http://wiki.python.org/moin/BeginnersGuide/NonProgrammers
+http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python/Contents
+http://itc.conversationsnetwork.org/series/sdforum.html
+http://www.coolpython.nl/tutorials/tut/tut.html
+http://www.ciprianpungila.com/python/facilitati.html
+http://www.awaretek.com/tutorials.html
+http://search.cpan.org/
+http://www.perlfoundation.org/
+http://www.perlfoundation.org/perl5/index.cgi#perl_5_wiki_resources
+http://www.perlfoundation.org/perl5/index.cgi?blogs
+http://perldoc.perl.org/
+http://bureauofcommunication.com/
+http://docs.rinet.ru/P7/
+http://www.perl.org/books/beginning-perl/
+http://www.techtoolblog.com/archives/195-free-online-programming-books
+http://www.computer-books.us/
+http://showmedo.com/videotutorials
+http://software-carpentry.org/
+http://showmedo.com/videotutorials/video?name=940010&fromSeriesID=94
+http://www.mathtv.com/
+http://www.khanacademy.org/
+http://www.e-booksdirectory.com/listing.php?category=3
+http://www.ekoob.com/best-sites-to-quickly-calculate-mathscientific-calculations-6627/
+http://mj12net.org/index.php/system-administrator-interview-cheat-sheet.html
+http://www.tldp.org/LDP/abs/html/
+http://www-cs-students.stanford.edu/~blynn/gitmagic/
+http://progit.org/book/
+http://degreedirectory.org/articles/Computer_Programming_OpenCourseWare_University_Rankings.html
+http://www.sprword.com/all.html
+http://www.cheat-sheets.org/
+http://pythonbook.coffeeghost.net/
+http://en.wikibooks.org/wiki/Wikibooks:Programming_languages_bookshelf
+http://en.flossmanuals.net/
+http://ivory.idyll.org/articles/advanced-swc/
+http://www.gnosis.cx/publish/tech_index_cp.html
+http://mj12net.org/courses/unix/
+http://www.youtube.com/watch?v=f3Jwsnyv9gA&feature=related
+http://www.youtube.com/watch?v=1pVolaKhxVM&feature=related
+http://www.youtube.com/watch?v=JzIWdJVP-wo&feature=related
+http://www.matusiak.eu/numerodix/blog/
+http://www.eecs.berkeley.edu/~bh/ss-toc2.html
+http://www.10000words.net/2009/09/99-greatest-blogs-you-arent-reading.html
+http://www.scirus.com/
+http://rayninfo.co.uk/vimtips.html
+http://friedcpu.wordpress.com/2007/07/24/zsh-the-last-shell-youll-ever-need/
+http://www.nptel.iitm.ac.in/video.php?courseId=1017
+http://www.few.vu.nl/~nsilvis/PPL/2007/index.html
+http://www.network-theory.co.uk/docs/pytut/index.html
+http://homepage.mac.com/s_lott/books/python/pythonbook-2.5.html
+http://rgruet.free.fr/PQR25/PQR2.5.html#Invocation
+http://www.cetus-links.org/oo_python.html
+http://press.princeton.edu/video/banner/
+http://www.youtube.com/watch?v=jbIQW0gkgxo |Variable Calculus|
+http://jeez.eu/2009/10/20/all-the-developers-books-you-ever-wanted/
+http://rute.2038bug.com/index.html.gz
+http://www.vcn.bc.ca/~dugan/setting-up-slackware.html
+http://slackworld.berlios.de/links.html
+http://www.mplayerhq.hu/DOCS/HTML/en/index.html
+http://tricks2u.blogspot.com/2009/11/theory-of-computation-video-lectures.html
+http://docs.php.net/manual/en/
+http://www.reddit.com/r/programming/comments/a25fk/im_a_17yearold_boy_whos_very_interested_in/
+http://plasmasturm.org/
+http://www.norvig.com/
+http://www.pythonware.com/daily/
+http://talesofacoldadmin.wordpress.com/bash-shortcuts/
+http://showmedo.com/videotutorials/video?name=pythonOzsvaldIntroToPyResources1&fromSeriesID=27
+http://lklm.org/
+http://www.reddit.com/r/programming/search?q=learn+python&sort=top
+https://sites.google.com/site/yacoset/Home/signs-that-you-re-a-bad-programmer
+http://portal.acm.org/toc.cfm?id=SERIES11430&type=series&coll=ACM&dl=ACM
+http://digital.library.cornell.edu/m/math/
+http://delicious.com/mudgen?setcount=50
+http://www.comptechdoc.org/independent/web/cgi/javamanual/
+http://www.comptechdoc.org/os/linux/usersguide/linux_ugfilesp.html
+http://www.perpetualpc.net/srtd_commands_rev.html
+http://www.faqs.org/docs/lnag/
+http://www.faqs.org/docs/artu/
+http://www.tldp.org/LDP/intro-linux/html/index.html
+http://www.linuxhq.com/guides/LUG/guide.html
+http://www.cs.utexas.edu/users/EWD/transcriptions/EWD06xx/EWD691.html
+http://www.tuxfiles.org/linuxhelp/fileman.html
+http://www.catcode.com/teachmod/
+http://www.rexx.com/~dkuhlman/
+http://www.programmingbooks.org/
+http://www.lispmachine.net/
+http://bc.tech.coop/lisp-books.htm
+http://www.shlomifish.org/
+http://vsbabu.org/tutorials/perl/index-2.html
+http://news.ycombinator.com/item?id=954677
+http://www.gnu.org/manual/manual.html
+http://www.htmldog.com/
+http://perl-begin.org/tutorials/impatient-perl/iperl.html
+http://www.vim.org/scripts/script.php?script_id=556
+http://www.perlmonks.org/?node_id=540393 vim ide perl
+http://delicious.com/ShlomiFish
+http://perlsphere.net/
+http://www.cs.cf.ac.uk/Dave/PERL/
+http://www.distancedegrees.com/2008/100-sources-for-free-as-in-beer-books-texts-online/
+http://kickjava.com/books/
+http://2020ok.com/5.htm
+http://perldoc.perl.org/perlboot.html
+http://perldoc.perl.org/perltoot.html
+http://perldoc.perl.org/perlobj.html
+http://www.perlmonks.org/?node_id=431702
+Programmer 101: Teach Yourself How to Code - Teach Yourself - Lifehacker
+http://www.hdmt.net/
+http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/
+http://www.reddit.com/r/programming/comments/a543l/just_a_bunch_of_helpful_links_books_and_pages_for/
+http://www.cervantesvirtual.com/servlet/SirveObras/04694925499104944157857/index.htm
+http://www.diigo.com/tag/gramática?tab=151
+http://www.moolenaar.net/habits.html
+http://www.swaroopch.com/blog/effective-vim/
+http://delicious.com/merlinmann/vim
+http://www.vmunix.com/~gabor/vi.html
+http://videolectures.net/Top/Computer_Science/
+http://news.ycombinator.com/item?id=954677
+http://thinksimplenow.com/productivity/7-keys-to-reading-faster/
+http://ictibus.blogspot.com/
+http://audio-video-disco.blogspot.com/
+http://bestlatin.blogspot.com/2009/06/nodictionariescom.html
+http://users.erols.com/whitaker/words.htm
+http://www.drpciv.ro/info-portal/authenticateSubscriber.do
+http://latino.logosdictionary.org/benvenuti.htm
+http://frcoulter.com/latin/links.html#dicts
+http://www.radiovaticana.org/tedesco/nuntii_latini.htm
+http://talkingvulgar.blogspot.com/
+http://www.animatedsoftware.com/faqs/learndos.htm#piping
+http://stackoverflow.com/users/8817/brian-d-foy
+http://stackoverflow.com/users/2974/rob-wells
+http://stackoverflow.com/search?q=perl+tutorial
+http://stackoverflow.com/questions/18171/best-programming-tutorial-sites
+http://stackoverflow.com/questions/2573/vim-tutorials
+http://twit.tv/FLOSS
+http://slashdot.org/index2.pl
+http://stackoverflow.com/
+http://www.shlomifish.org/lecture/Perl/Newbies/
+http://stackoverflow.com/questions/555429/what-comes-next-after-learning-perl
+http://www.iinteractive.com/moose/
+http://www.learningpython.com/
+http://code.activestate.com/recipes/langs/python/
+http://snippets.dzone.com/tag/python/
+http://software-carpentry.org/
+http://thehazeltree.org/
+http://www.pythonware.com/daily/
+http://www-cs-faculty.stanford.edu/~uno/taocp.html
+http://python-ebook.blogspot.com/
+http://planet.python.org/
+http://linkmingle.com/list/List-of-Free-Online-Python-Books-freebooksandarticles
+http://pycon.blip.tv/
+http://docs.python.org/library/idle.html
+http://latinandgreek.blogspot.com/
+http://www.dmae.upct.es/~juan/matematicas.htm
+http://www.techtoolblog.com/archives/195-free-online-programming-books
+http://delicious.com/jcwren/c-41?tags=on
+http://www.professionelle-softwareentwicklung-mit-php5.de/
+http://www.webdesignerdepot.com/2009/12/how-to-find-anything-online-become-an-internet-research-expert/
+http://www.bestcollegesonline.com/blog/2009/06/18/100-incredible-lectures-from-the-worlds-top-scientists/
+http://c4lpt.co.uk/2009review.html
+http://www.reddit.com/r/AskReddit/comments/ajalo/reddit_teach_me/c0huw2p/
+http://www.bbc.co.uk/skillswise/words/grammar/
+http://delicious.com/Deutsch_als_Fremdsprache/Grammatik
+http://web.ard.de/radio/radionet/index.php?ressort=hoerspiel
+http://cornelia.siteware.ch/blog/wordpress/
+http://wiki.zum.de/Grammatik
+http://www.iik.de/uebungen/uebungsseite/menue.html
+http://www.iik.de/uebungen/uebungsseite/neu.html
+http://www.iik.de/uebungen/uebungsseite/uebliches/menue_uebung.html
+http://nthuleen.com/teach/grammar.html
+http://web.letras.up.pt/alemao3/
+http://cornelia.siteware.ch/blog/wordpress/2007/02/25/verben-konjugieren
+http://deutschlernen-blog.de/2006/07/13/deutsche-grammatik-online-grammatikuebungen-bei-wwwiikde/
+         latin
+http://benbijnsdorp.info/tacitus.html
+http://circulusbarcinonensis.blogspot.com/2009/12/tempus-locusque-primae-sessionis.html
+http://tradicionclasica.blogspot.com/2008/04/vaya-par-de-manzanas.html
+http://www.culturaclasica.com/lingualatina/miraglia.htm
+http://lingualatina-orberg.blogspot.com/
+http://citas-latinas.blogspot.com/
+http://www.corpusthomisticum.org/iopera.html
+http://latineloquamur.blogspot.com/
+http://www.philological.bham.ac.uk/bibliography/
+http://www.uni-mannheim.de/mateo/camenahtdocs/itali.html
+http://lecturefox.com/computerscience/
+http://www.goethe-verlag.com/book2/INDEX.HTM
+http://www.read.gov/
+http://codebutcher.com/
+http://lifehacker.com/201979/technophilia-get-a-free-college-education-online/
+http://www.programmingtutorials.com/default.aspx
+http://www.nyidanmark.dk/en-us/Integration/online_danish/online_danish.htm
+http://html-ipsum.com/
+http://roomfordebate.blogs.nytimes.com/2010/02/10/do-school-libraries-need-books/
+http://www.ibm.com/developerworks/aix/library/au-badunixhabits.html?ca=lnxw01GoodUnixHabits
+http://www.webcharted.com./
+http://www.reddit.com/r/AskReddit/comments/b1c8m/what_are_the_most_useful_websites_on_the_web/
+http://letsmakerobots.com/
+http://www.linuxquestions.org/questions/slackware-14/what-happened-to-xorg-in-slackware-13.0-intel-chipset-762618/?highlight=slackware+intel+graphics
+
+http://lysender.co.cc/2010/01/slackware-linux-13-0/
+http://draconishinobi.50webs.com/
+http://tldp.org/LDP/abs/html/
+http://wiki.linuxquestions.org/wiki/Slackware-Links
+http://www.grymoire.com/Unix/
+http://jeremy.linuxquestions.org/
+http://en.wikisource.org/wiki/Constitution_of_the_United_States_of_America
+http://web.wm.edu/hsi/index.html
+http://www.jimmyr.com/linkdump.html > JIMMY'S RUSKA BOOOKMARKS.
+http://www.reddit.com/r/programming/comments/b5bpb/looking_to_learn_perl_and_i_could_use_some_help/
+http://steve.yegge.googlepages.com/ten-challenges
+http://www.associatesdegree.com/2010/01/20/100-incredible-lectures-for-history-lovers/
+http://www.linuxselfhelp.com/
+http://www.linuxquestions.org/questions/slackware-14/slackbook-789362/
+http://alien.slackbook.org/blog/welcome-windows-user/
+http://alien.slackbook.org/blog/installing-slackware-using-usb-thumb-drive/
+http://www.mp3download.bz/
+http://ow.ly/16FlEj
+http://volodia.ro/
+http://paperc.de/
+http://wiki.archlinux.org/index.php/Slime
+http://www.maclife.com/article/feature/15_great_services_you_had_no_idea_google_offered/
+http://savedelete.com/15-best-websites-that-can-make-you-a-web-designer.html
+http://www.lyricstraining.com/
+http://www.forvo.com/
+http://www.makeuseof.com/tag/create-strong-password-forget/
+http://worditout.com/
+http://dustin.github.com/2010/02/28/running-processes.html
+http://aznv.tv/?p=d431  COREAN DRAMA.
+http://delicious.com/uniteach/
+http://www.passwordchart.com/
+http://www.learnalberta.ca/content/me5l/html/math5.html#
+http://www.aaronsw.com/
+http://www.koreanwiz.org/dramas.html
+http://www.booksshouldbefree.com/
+http://www.onlineuniversities.com/blog/2010/02/100-free-tools-resources-to-teach-yourself-chinese/
+http://www.accreditedonlinecolleges.com/blog/2010/100-free-foreign-language-classes-online/
+http://www.popsci.com/archive-viewer
+http://books.google.com/books/serial/wzsEAAAAMBAJ
+http://www.onlinecolleges.net/2010/03/03/100-amazing-videos-for-teaching-and-studying-physics/
+http://www.puniz.com/ > music download site.
+for f in ./*.wav; do lame "$f" "${f%.wav}.mp3"; done > convert mp3 to wav.
+http://savedelete.com/30-best-websites-to-download-free-ebooks.html
+http://www.booksshouldbefree.com/
+http://bestonlinemastersdegrees.com/2010/top-50-education-technology-blogs/
+http://news.ycombinator.com/item?id=1171520
+http://www.reddit.com/r/programming/comments/ba4e9/i_remember_a_programming_site_that_had_how_to_do/
+http://www.onlineuniversities.com/blog/2010/03/100-time-saving-search-engines-for-serious-scholars/
+http://www.edge.org/documents/archive/edge313.html
+http://www.accreditedonlinecolleges.com/blog/2010/100-amazing-memory-hacks-to-maximize-your-brain/
+http://venerix.homeunix.com/logs/ > logs archlinux romania.
+http://typewith.me/
+http://cashflow777.weebly.com/higher-education.html
+http://www.dicodunet.com/
+http://www.alistapart.com/articles/ebookstandards/
+http://www.reddit.com/r/programming/comments/baiqs/how_to_teach_yourself_programming/
+http://homepage.mac.com/s_lott/books/python/html/index.html
+http://en.wikipedia.org/wiki/Wikipedia:Unusual_articles?reddit
+http://betterexplained.com/articles/aha-moments-when-learning-git/
+http://twirssi.com/
+http://headmagnet.com/
+http://prog21.dadgum.com/64.html > Eleven years of Erlang
+http://bobrost.com/nes/ > netendo game programming.
+http://web.cs.wpi.edu/~cs1102/a08/Assignments/Hwk5/index.html
+http://lenniedevilliers.blogspot.com/2010/03/c-blogs-worth-readingbookmarking.html
+http://www.reddit.com/r/programming/comments/bbyzj/c_blogs_worth_readingbookmarking/
+Python Blogs Worth Reading/Bookmarking 
+http://www.voidspace.org.uk/python/weblog/index.shtml > Python podcast really good!
+http://stackoverflow.com/
+http://my.gpodder.org/toplist/
+http://www.nielshorn.net/slackware/slack_old.php > slackware older version.
+http://slackware.com/faq/do_faq.php?faq=general
+http://lifehacker.com/5492593/use-linux-to-scan-unusable-windows-drives-for-viruses/
+http://www.westegg.com/unmaintained/carnegie/win-friends.html
+http://www.lisbeautiful.com/
+http://www.schneier.com/blog/archives/2008/11/the_future_of_e.html
+http://www.bbc.co.uk/programmes/p002w6r2/episodes/player > digital planet bbc.
+http://openbookproject.net/pybiblio/ > python library 
+http://reprog.wordpress.com/2010/03/06/programming-books-part-2-the-elements-of-programming-style/
+http://www.docspal.com/
+http://burningworld2009.blogspot.com/2010/02/installing-slackware-linux.html
+http://math-blog.com/mathematics-books/
+http://writequit.org/blog/?p=386
+http://japo.posterous.com/letter-to-young-people-by-carlos-slim-3rd-ric
+http://www.citrinitas.com/history_of_viscom/
+http://math-blog.com/2010/03/12/discussing-research-level-mathematics-online/
+http://www.g-loaded.eu/2006/11/06/netcat-a-couple-of-useful-examples/
+http://www.hackurls.com/
+http://www.joelonsoftware.com/items/2010/03/17.html
+http://blog.stackoverflow.com/2010/03/podcast-85/
+http://hginit.com/
+http://code.google.com/edu/languages/google-python-class/ >python google tutorial
+http://www.smashingmagazine.com/2010/03/19/showcase-of-academic-and-higher-education-websites/
+http://blog.rubybestpractices.com/posts/gregory/022-rbp-now-open.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+RubyBestPractices+%28Ruby+Best+Practic
+es+-+Blog%29&utm_content=Google+Reader
+http://mega-pdf.com/
+http://cs.anu.edu.au/students/comp8440/lectures.php > letures for it
+http://codedevl.blogspot.com/2010/03/whats-in-your-dead-tree-format-library.html
+http://www.supermemo.com/articles/sleep.htm
+http://5by5.tv/devshow/4 > podcast
+http://www.paulgraham.com/
+http://www.thegeekstuff.com/2008/12/vi-and-vim-editor-3-steps-to-enable-thesaurus-option/
+http://www.easydefine.com/ > dictionary
+http://wireless.kernel.org/en/developers/Documentation/git-guide#Cloning_latest_wireless-testing
+http://sweet.nodns4.us/
+http://sweet.nodns4.us/pc-merlin_csc.html
+http://unixbhaskar.blogspot.com/2010/03/insight-into-gnulinux-boot-process.html
+http://www.dspguide.com/pdfbook.htm
+http://blog.tpa.me.uk/slackware-kernel-compile-guide/ > Zordrak compile kernel.
+http://www.unixguide.net/linux/linuxshortcuts.shtml
+http://www.dawoodfall.net/index.php?default
+https://calomel.org/
+http://small-slackware.blogspot.com/2008/12/slackware-linux-minimum.html > small slackware
+http://www.linuxquestions.org/questions/slackware-14/samacs-super-slimline-speedy-slackware-704866/ alienbob slackware minimal install script.
+http://www.uni-mannheim.de/mateo/camenaref/comenius.html
+http://wiki.archlinux.org/index.php/CD_Burning#Burning_an_iso_image
+http://www.onlinedegrees.net/blog/2010/101-habits-of-highly-effective-writers/ > english language study.
+http://www.popcrunch.com/19-of-the-greatest-science-fiction-book-series/
+http://man.cat-v.org/plan_9/1/emacs > emacs manual commands.
+http://pharobyexample.org/ > free books to learn smalltalk.
+http://www.ordinary-gentlemen.com/2010/03/the-chloroformed-mind-the-case-against-teaching-math/
+http://www.lamp.ro/articole-tutoriale-linux/drepturile-fisierelor-in-unix/
+http://www.gitready.com/
+http://www.skorks.com/2010/03/you-dont-need-math-skills-to-be-a-good-developer-but-you-do-need-them-to-be-a-great-one/
+http://tldp.org/HOWTO/Keyboard-and-Console-HOWTO-15.html
+/usr/doc/Linux-HOWTOs/Keyboard-and-Console-HOWTO Ctrl swap.
+http://samy.pl/pwnat/
+http://www.christiancollegesanduniversities.com/blog/2010/20-math-blog-for-parents-and-tutors/ > mate blogs.
+http://www.academie-en-ligne.fr/Default.aspx > L’académie en ligne propose les cours
+http://goosh.org/
+http://asymmetrical-view.com/posts/
+http://webcast.cern.ch/lhcfirstphysics/
+http://www.makeuseof.com/tag/40-online-resources-to-expand-your-english-vocabulary/
+http://www.iu.hio.no/~mark/CTutorial/CTutorial.html c tutorial programming.
+http://www.eskimo.com/~scs/cclass/krnotes/top.html
+http://www.bookshelf.jp/texi/onlisp/onlisp_toc.html > on lisp on html.
+http://daily-english-activities.blogspot.com/
+http://frcoulter.com/leo/index.html > Sancti Leonis Magni Tractatus
+http://tnerual.eriogerg.free.fr/vimqrc.html
+http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118/
+http://www.reddit.com/r/programming/comments/bktbz/your_problem_with_vim_is_that_you_dont_grok_vi/
+http://www.vatican.va/various/cappelle/sistina_vr/
+http://www.nytimes.com/2009/02/16/books/16libr.html?_r=2
+http://www.gentoo.org/doc/en/vi-guide.xml
+http://www.vi-improved.org/tutorial.php
+http://www.linuxquestions.org/questions/blog/ > linux blogs.
+http://zhiqiangma.info/
+http://www.dillon2.k12.sc.us/teachers/searchtools.asp#Fake_Websites_to_Use_For_Student_Instruction_on_Using_the_Internet
+http://amasci.com/miscon/elect.html#dn1
+http://www.cantrip.org/stupidity.html
+http://www.bilbos-stekkie.com/tagger/tagfiles.html
+http://linuxexchange.org/
+https://wiki.ubuntu.com/LucidReleaseSchedule
+http://www.reddit.com/r/programming/comments/btinf/when_i_grew_up_i_learned_to_program_by_typing_in/
+http://devio.us/ > Free Openbsd shell provider.
+http://mitpress.mit.edu/sicp/full-text/book/book-Z-H-4.html#%_toc_start
+http://www.reddit.com/r/programming/comments/bwbgh/the_structure_and_interpretation_of_computer/
+http://news.ycombinator.com/item?id=1297221
+http://www.billthelizard.com/2008/12/books-programmers-dont-really-read.html
+http://thinkinginrails.com/2010/04/favorite-ruby-and-rails-podcasts/
+http://samizdat.mines.edu/howto/HowToBeAProgrammer.html
+http://www.makeuseof.com/tag/12-great-free-video-tutorial-sites-brush-tech-skills/
+https://www.archlinux.de/?page=MirrorStatus
+http://resources.savedelete.com/37-best-websites-to-download-free-ebooks.html
+http://www.makeuseof.com/tag/5-great-tutorial-websites-learn/
+http://www.watchknow.org/
+http://google-styleguide.googlecode.com/svn/trunk/pyguide.html
+http://lifehacker.com/5525758/
+http://www.audiogon.com/
+http://tvnz.co.nz/world-news/ever-heard-north-korean-joke-3459547
+http://abhishek.geek.nz/docs/features-of-common-lisp/
+http://floating-point-gui.de/
+http://samizdat.mines.edu/howto/HowToBeAProgrammer.html#id2853103
+http://docs.sun.com/source/806-3568/ncg_goldberg.html
+http://curiousreef.com/class/mit-opencourseware-600-introduction/2010/jan/
+http://curiousreef.com/class/structure-and-interpretation-of-comp/2010/jan/
+http://www.cs.berkeley.edu/~bh/v2-toc2.html
+http://www.bbc.co.uk/worldservice/documentaries/ BBC documentaries.
+http://www.bbc.co.uk/religion/religions/
+http://atdhe.net/
+http://www.reddit.com/r/programming/comments/c1gsi/emacs_232_released/
+
+
+
+
+LATIN SECTION BEGINNS HERE.01.04.10
+http://delicious.com/Velptonius > latin links.
+http://langs.eserver.org/latin-grammar.txt
+http://humanum.arts.cuhk.edu.hk/~lha/latin_lessons/latin.html
+http://linguae.weebly.com/index.html
+http://adlerlatin.wikispaces.com/
+http://ancientrome.ru/ius/library/
+http://www.thelatinlibrary.com/101/index.html
+http://www.vatican.va/archive/ccc/index_it.htm > the hole bible. Sancat Scriptura.
+http://fsi-language-courses.org/Content.php
+http://www.hs-augsburg.de/~harsch/Ludus/lud_port.html
+http://latin.lap.hu/
+http://www.abaelard.de/abaelard/Main.htm
+http://en.wikibooks.org/wiki/Latin
+http://aesopus.pbworks.com/
+http://www.forumromanum.org/literature/index.html
+http://www.scholiastae.org/scholia/Main_Page
+http://www.greeklatin.narod.ru/grk1/index.htm
+http://www.edonnelly.com/google.html > foarte important.
+http://schola.ning.com/profiles/blogs/libri-quos-commendo-quibus
+http://air.ap.teacup.com/aer_aeris/
+http://tamathemata.blogspot.com/
+http://www.quasillum.com/study/greekstudy.php
+http://itunes.apple.com/podcast/latin-greek/id274172104
+http://vulsearch.sourceforge.net/html/index.html
+
+
+
+http://www.spokenskills.com/index.cfm?type=15&content=studentactivities
+http://freenuts.com/learn-english-online-for-free/ > Engleza.
+http://www.onlinecollege.org/2009/08/16/101-tools-to-learn-any-foreign-language-for-free/
+http://www.sindinero.org/blog/archives/2037
+http://bibleonline.ru/bible/ukr/
+http://www.zencollegelife.com/75-free-language-learning-resources-online/
+http://www.audiodharma.org/talks-intromed-2010.html
+http://www.waterlive.org/Read.aspx
+http://www.marisys.com/a-breakdown-and-explanation-of-radar_2010-04-21/
+http://www.makeuseof.com/tag/master-the-google-search-like-a-god-save-time/
+http://www.makeuseof.com/tag/8-web-resources-check-buzz-open-source-software/
+http://hubblesite.org/
+http://sourcesofinsight.com/2010/04/25/lessons-learned-from-seth-godin/
+http://www.onlineuniversities.com/blog/2010/04/50-incredible-historical-speeches/
+http://www.nursingschools.net/blog/2010/04/100-health-hacks-every-mom-should-know/
+http://www.zencollegelife.com/the-history-of-libraries-through-the-ages/
+http://www.web20searchengine.com/web20/web-2.0-list.htm
+http://www.factmonster.com/countries.html
+http://ph.infoplease.com/countries.html
+http://news.bbc.co.uk/2/hi/country_profiles/default.stm
+http://www.ala.org/ala/mgrps/divs/rusa/sections/mars/marspubs/marsbestfreewebsites/marsbestfree2009.cfm#
+http://www.hippocampus.org/
+http://www.freestylemind.com/mental-math-tricks/
+http://www.randomhouse.com/modernlibrary/100bestnovels.html
+http://www.time.com/time/specials/packages/completelist/0,29569,1951793,00.html > all time 100 novels
+http://bestpornosites-nikos.blogspot.com/2009/12/some-of-my-best-pornostars-ever_13.html
+
+
+the german section beginns here
+http://donnerwetter.kielikeskus.helsinki.fi/DVG/
+http://www.gut1.de/Download/Diktat/Diktat_Listen.htm
+http://www.cornelia.siteware.ch/grammatik/genus.html
+http://www.cooldriving.ch/de/index.htm
+http://www.deutschlern.net/login.php?module=curs&link=lc&show=743&lc=1545
+http://deutschistklasse.blogspot.com/
+http://cornelia.siteware.ch/blog/wordpress/
+http://books.google.com/m > google books in html format.
+http://www.deep-shadows.com/hax/ReadManiac/index.htm
+http://onlinebooks.library.upenn.edu/
+http://everybodyslibraries.com/2009/03/30/how-to-find-complete-multi-volume-works-in-google-books/
+http://onlinebooks.library.upenn.edu/in-progress.html#requests
+http://digitalcampus.tv/2009/02/17/episode-38-e-book-redux/ 
+http://www.alatechsource.org/blog/2009/03/library-20-gang-0209-google-books-and-libraries.html
+http://www.atarimagazines.com/
+http://www.9lessons.info/2010/05/must-watch-ted-videos.html
+http://inventwithpython.com/chapters/
+http://www.atariarchives.org/
+http://www.atariarchives.org/adventure/
+http://www.accreditedonlinecolleges.com/blog/2010/100-informative-inspiring-youtube-videos-for-educators/
+http://www.universityreviewsonline.com/2005/10/50-incredible-books-every-educator-should-read.html
+http://divinumofficium.com/cgi-bin/horas/officium.pl?expand=all&version=Divino%20Afflatu&lang2=English
+http://en.wikipedia.org/w/index.php/Ecclesiastical_Latin#Bibles
+http://www.traditio.com/tradlib/latneces.txt
+:language ro_RO
+:help language
+set an new language in /etc/profile.d/lang.sh
+export LANG=en_US.UTF8
+LANG=fr_FR 
+export LANG=en_US
+
