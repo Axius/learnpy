@@ -20,10 +20,10 @@ while b < 10:
     a, b = b, a+b
 
  def MyAddress():
-     print "Rentea Florin"
+     print "Aninus"
      print "46 Main Street"
-     print "Sibiu, Sadu, Romania"
-     print "k2m 2E9"
+     print "Saky"
+     print "ki"
 
  print MyAddress
 
