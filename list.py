@@ -28,5 +28,13 @@ newfile.close()
 newfile = open("mynewfile.txt", 'w')
 print >> newfile, "Dominus homines amat!" # Writing to a file using print.re
 newfile.close() #The two > symbols wich are called chevrons. is redirectingq 
+n = 35
+m = 33
+if n == 36:
+    print 'This is fucking hot for you may friend'
+else:
+    print 'Today was very hot indead'
+print 'Hello, upheaval of vulcanic'
 
 
+# for k in sorted(dict.keys()): print 'key:' k,'->',dict[k]   

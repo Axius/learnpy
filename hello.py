@@ -1,6 +1,5 @@
-#!/usr/bin/python2.6 -tt
+#!/usr/bin/python 
 
-#import sys
 
 #def hello(name):
 #    if name == 'Alice':
@@ -14,17 +13,19 @@
 #
 #my
 
-a, b = 0, 1
-while b < 10:
-    print b
-    a, b = b, a+b
+#a, b = 0, 1
+#while b < 10:
+#    print b
+#    a, b = b, a+b
+#
+# def MyAddress():
+#     print "Aninus"
+#     print "46 Main Street"
+#     print "Saky"
+#     print "ki"
 
- def MyAddress():
-     print "Aninus"
-     print "46 Main Street"
-     print "Saky"
-     print "ki"
+# print MyAddress
 
- print MyAddress
+
 
 

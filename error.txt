@@ -1,0 +1,9 @@
+Can't locate Date/Calc.pm in @INC (@INC contains: 
+/usr/lib/perl5/5.10.1/i486-linux-thread-multi /usr/lib/perl5/5.10.1 
+/usr/lib/perl5/site_perl/5.10.1/i486-linux-thread-multi 
+/usr/lib/perl5/site_perl/5.10.1 /usr/lib/perl5/site_perl 
+/usr/lib/perl5/vendor_perl/5.10.1/i486-linux-thread-multi 
+/usr/lib/perl5/vendor_perl/5.10.1 /usr/lib/perl5/vendor_perl .) at 
+age.pl line 5.
+BEGIN failed--compilation aborted at age.pl line 5.
+

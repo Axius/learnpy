@@ -24,3 +24,11 @@
 #def main():
 #    print sys.argv " Hello, crazy nanny"
 
+var = 34
+bar = 356
+if var > bar:
+    print 'This is fucking good indead my friend'
+else:
+    print 'This fucking bad indead my friend'
+
+

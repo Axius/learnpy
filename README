@@ -1,1 +1,4 @@
 # This the a init file.
+screen -raAd
+screen -xr
+screen -DR

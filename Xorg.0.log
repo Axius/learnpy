@@ -1,0 +1,652 @@
+	X.Org ANSI C Emulation: 0.4
+	X.Org Video Driver: 5.0
+	X.Org XInput driver : 4.0
+	X.Org Server Extension : 2.0
+(II) Loader running on linux
+(--) using VT number 7
+
+(--) PCI:*(0:1:0:0) 1106:3371:1462:7364 rev 1, Mem @ 0xc0000000/536870912, 0xfd000000/16777216, BIOS @ 0x????????/65536
+(II) Open ACPI successful (/var/run/acpid.socket)
+(II) System resource ranges:
+	[0] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[1] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[2] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[3] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[4] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[5] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[6] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[7] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[8] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[9] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[10] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[11] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[12] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[13] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[14] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[15] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[16] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[17] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[18] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[19] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[20] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[21] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[22] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[23] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[24] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[25] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[26] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[27] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[28] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[29] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[30] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[31] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[32] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[33] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[34] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[35] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[36] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[37] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[38] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[39] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[40] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[41] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[42] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[43] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[44] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[45] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[46] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[47] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[48] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[49] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[50] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[51] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[52] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[53] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+(II) "extmod" will be loaded. This was enabled by default and also specified in the config file.
+(II) "dbe" will be loaded. This was enabled by default and also specified in the config file.
+(II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+(II) "dri" will be loaded. This was enabled by default and also specified in the config file.
+(II) "dri2" will be loaded. This was enabled by default and also specified in the config file.
+(II) LoadModule: "glx"
+(II) Loading /usr/lib/xorg/modules/extensions//libglx.so
+(II) Module glx: vendor="X.Org Foundation"
+	compiled for 1.6.3, module version = 1.0.0
+	ABI class: X.Org Server Extension, version 2.0
+(==) AIGLX enabled
+(II) Loading extension GLX
+(II) LoadModule: "extmod"
+(II) Loading /usr/lib/xorg/modules/extensions//libextmod.so
+(II) Module extmod: vendor="X.Org Foundation"
+	compiled for 1.6.3, module version = 1.0.0
+	Module class: X.Org Server Extension
+	ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension MIT-SCREEN-SAVER
+(II) Loading extension XFree86-VidModeExtension
+(II) Loading extension XFree86-DGA
+(II) Loading extension DPMS
+(II) Loading extension XVideo
+(II) Loading extension XVideo-MotionCompensation
+(II) Loading extension X-Resource
+(II) LoadModule: "dri2"
+(II) Loading /usr/lib/xorg/modules/extensions//libdri2.so
+(II) Module dri2: vendor="X.Org Foundation"
+	compiled for 1.6.3, module version = 1.1.0
+	ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension DRI2
+(II) LoadModule: "dbe"
+(II) Loading /usr/lib/xorg/modules/extensions//libdbe.so
+(II) Module dbe: vendor="X.Org Foundation"
+	compiled for 1.6.3, module version = 1.0.0
+	Module class: X.Org Server Extension
+	ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension DOUBLE-BUFFER
+(II) LoadModule: "dri"
+(II) Loading /usr/lib/xorg/modules/extensions//libdri.so
+(II) Module dri: vendor="X.Org Foundation"
+	compiled for 1.6.3, module version = 1.0.0
+	ABI class: X.Org Server Extension, version 2.0
+(II) Loading extension XFree86-DRI
+(II) LoadModule: "openchrome"
+(II) Loading /usr/lib/xorg/modules/drivers//openchrome_drv.so
+(II) Module openchrome: vendor="http://openchrome.org/"
+	compiled for 1.6.1, module version = 0.2.903
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 5.0
+(II) OPENCHROME: Driver for VIA Chrome chipsets: CLE266, KM400/KN400,
+	K8M800/K8N800, PM800/PM880/CN400, P4M800Pro/VN800/CN700,
+	K8M890/K8N890, P4M900/VN896/CN896, CX700/VX700, P4M890
+(II) Primary Device is: PCI 01@00:00:0
+(!!) VIA Technologies does not support this driver in any way.
+(!!) For support, please refer to http://www.openchrome.org/.
+(!!) (openchrome 0.2.903 release)
+(II) resource ranges after probing:
+	[0] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[1] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[2] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[3] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[4] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[5] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[6] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[7] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[8] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[9] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[10] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[11] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[12] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[13] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[14] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[15] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[16] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[17] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[18] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[19] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[20] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[21] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[22] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[23] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[24] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[25] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[26] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[27] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[28] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[29] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[30] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[31] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[32] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[33] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[34] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[35] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[36] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[37] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[38] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[39] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[40] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[41] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[42] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[43] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[44] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[45] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[46] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[47] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[48] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[49] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[50] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[51] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[52] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[53] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+(II) CHROME(0): VIAPreInit
+(II) Loading sub module "vgahw"
+(II) LoadModule: "vgahw"
+(II) Loading /usr/lib/xorg/modules//libvgahw.so
+(II) Module vgahw: vendor="X.Org Foundation"
+	compiled for 1.6.3, module version = 0.1.0
+	ABI class: X.Org Video Driver, version 5.0
+(II) CHROME(0): VIAGetRec
+(**) CHROME(0): Depth 24, (--) framebuffer bpp 32
+(==) CHROME(0): RGB weight 888
+(==) CHROME(0): Default visual is TrueColor
+(--) CHROME(0): Chipset: P4M900/VN896/CN896
+(--) CHROME(0): Chipset revision: 0
+(--) CHROME(0): Probed amount of VideoRAM = 131072 kB
+(II) CHROME(0): Setting up default chipset options.
+(II) CHROME(0): VIASetupDefaultOptions
+(II) CHROME(0): Reading config file...
+(II) CHROME(0): Starting to parse config file options...
+(==) CHROME(0): Shadow framebuffer is disabled.
+(==) CHROME(0): Hardware acceleration is enabled.
+(==) CHROME(0): Using XAA acceleration architecture.
+(==) CHROME(0): Using hardware two-color cursors and software full-color cursors.
+(==) CHROME(0): GPU virtual command queue will be enabled.
+(==) CHROME(0): DRI IRQ will be enabled if DRI is enabled.
+(==) CHROME(0): AGP DMA will be disabled if DRI is enabled.
+(==) CHROME(0): PCI DMA will not be used for XV image transfer if DRI is enabled.
+(==) CHROME(0): Will not enable VBE modes.
+(==) CHROME(0): VBE VGA register save & restore will not be used
+	if VBE modes are enabled.
+(==) CHROME(0): Xv Bandwidth check is enabled.
+(==) CHROME(0): Will not impose a limit on video RAM reserved for DRI.
+(==) CHROME(0): Will try to allocate 32768 kB of AGP memory.
+(==) CHROME(0): Digital output bus width is 12 bits.
+(==) CHROME(0): DVI Center is disabled.
+(==) CHROME(0): Panel size is not selected from config file.
+(==) CHROME(0): Panel will not be forced.
+(==) CHROME(0): TV dotCrawl is disabled.
+(==) CHROME(0): TV deflicker is set to 0.
+(==) CHROME(0): No default TV type is set.
+(==) CHROME(0): No default TV output signal type is set.
+(II) CHROME(0): VIAMapMMIO
+(--) CHROME(0): mapping MMIO @ 0xfd000000 with size 0x9000
+(--) CHROME(0): mapping BitBlt MMIO @ 0xfd200000 with size 0x20000
+(II) CHROME(0): vgaHWGetIOBase: hwp->IOBase is 0x03d0, hwp->PIOOffset is 0x0000
+(==) CHROME(0): Will not print VGA registers.
+(==) CHROME(0): Will not scan I2C buses.
+(II) CHROME(0): ...Finished parsing config file options.
+(EE) CHROME(0): Unknown Card-Ids (3371|1462|7364); please report to openchrome-users@openchrome.org
+(II) CHROME(0): Detected MemClk 7
+(II) CHROME(0): ViaGetMemoryBandwidth
+(II) CHROME(0): Detected TV standard: NTSC.
+(==) CHROME(0): Using gamma correction (1.0, 1.0, 1.0)
+(II) Loading sub module "i2c"
+(II) LoadModule: "i2c"
+(II) Module "i2c" already built-in
+(II) CHROME(0): ViaI2CInit
+(II) CHROME(0): ViaI2CBus1Init
+(II) CHROME(0): I2C bus "I2C bus 1" initialized.
+(II) CHROME(0): ViaI2cBus2Init
+(II) CHROME(0): I2C bus "I2C bus 2" initialized.
+(II) CHROME(0): ViaI2CBus3Init
+(II) CHROME(0): I2C bus "I2C bus 3" initialized.
+(II) Loading sub module "ddc"
+(II) LoadModule: "ddc"
+(II) Module "ddc" already built-in
+(II) CHROME(0): I2C device "I2C bus 1:E-EDID segment register" registered at address 0x60.
+(II) CHROME(0): I2C device "I2C bus 1:ddc2" registered at address 0xA0.
+(II) CHROME(0): Manufacturer: HSD  Model: 11  Serial#: 4641
+(II) CHROME(0): Year: 2007  Week: 21
+(II) CHROME(0): EDID Version: 1.3
+(II) CHROME(0): Analog Display Input,  Input Voltage Level: 0.700/0.300 V
+(II) CHROME(0): Sync:  Separate  SyncOnGreen
+(II) CHROME(0): Max Image Size [cm]: horiz.: 37  vert.: 23
+(II) CHROME(0): Gamma: 2.20
+(II) CHROME(0): DPMS capabilities: StandBy Suspend Off; RGB/Color Display
+(II) CHROME(0): First detailed timing is preferred mode
+(II) CHROME(0): redX: 0.643 redY: 0.325   greenX: 0.295 greenY: 0.616
+(II) CHROME(0): blueX: 0.143 blueY: 0.081   whiteX: 0.310 whiteY: 0.330
+(II) CHROME(0): Supported established timings:
+(II) CHROME(0): 720x400@70Hz
+(II) CHROME(0): 640x480@60Hz
+(II) CHROME(0): 640x480@67Hz
+(II) CHROME(0): 640x480@72Hz
+(II) CHROME(0): 640x480@75Hz
+(II) CHROME(0): 800x600@56Hz
+(II) CHROME(0): 800x600@60Hz
+(II) CHROME(0): 800x600@72Hz
+(II) CHROME(0): 800x600@75Hz
+(II) CHROME(0): 832x624@75Hz
+(II) CHROME(0): 1024x768@60Hz
+(II) CHROME(0): 1024x768@70Hz
+(II) CHROME(0): 1024x768@75Hz
+(II) CHROME(0): 1280x1024@75Hz
+(II) CHROME(0): 1152x870@75Hz
+(II) CHROME(0): Manufacturer's mask: 0
+(II) CHROME(0): Supported standard timings:
+(II) CHROME(0): #0: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+(II) CHROME(0): #1: hsize: 1280  vsize 720  refresh: 60  vid: 49281
+(II) CHROME(0): #2: hsize: 1280  vsize 960  refresh: 60  vid: 16513
+(II) CHROME(0): #3: hsize: 1152  vsize 864  refresh: 75  vid: 20337
+(II) CHROME(0): #4: hsize: 1024  vsize 768  refresh: 66  vid: 18017
+(II) CHROME(0): #5: hsize: 1400  vsize 1050  refresh: 75  vid: 20368
+(II) CHROME(0): #6: hsize: 1440  vsize 900  refresh: 75  vid: 3989
+(II) CHROME(0): Supported detailed timing:
+(II) CHROME(0): clock: 106.5 MHz   Image Size:  408 x 255 mm
+(II) CHROME(0): h_active: 1440  h_sync: 1520  h_sync_end 1672 h_blank_end 1904 h_border: 0
+(II) CHROME(0): v_active: 900  v_sync: 903  v_sync_end 909 v_blanking: 934 v_border: 0
+(II) CHROME(0): Ranges: V min: 55 V max: 75 Hz, H min: 30 H max: 83 kHz, PixClock max 140 MHz
+(II) CHROME(0): Serial No: 721DY3NA04641
+(II) CHROME(0): Monitor name: Hanns.G HW173
+(II) CHROME(0): EDID (in hex):
+(II) CHROME(0): 	00ffffffffffff002264110021120000
+(II) CHROME(0): 	151101030a251778ea9bb6a4534b9d24
+(II) CHROME(0): 	144f54bfef80818081c08140714f6146
+(II) CHROME(0): 	904f950f01019a29a0d0518422305098
+(II) CHROME(0): 	360098ff1000001e000000fd00374b1e
+(II) CHROME(0): 	530e0101010101010101000000ff0037
+(II) CHROME(0): 	32314459334e413034363431000000fc
+(II) CHROME(0): 	0048616e6e732e472048573137330045
+(II) CHROME(0): EDID vendor "HSD", prod id 17
+(II) CHROME(0): Using EDID range info for horizontal sync
+(II) CHROME(0): Using EDID range info for vertical refresh
+(II) CHROME(0): Printing DDC gathered Modelines:
+(II) CHROME(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 +hsync +vsync (55.9 kHz)
+(II) CHROME(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+(II) CHROME(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz)
+(II) CHROME(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz)
+(II) CHROME(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz)
+(II) CHROME(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz)
+(II) CHROME(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz)
+(II) CHROME(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz)
+(II) CHROME(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz)
+(II) CHROME(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz)
+(II) CHROME(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz)
+(II) CHROME(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+(II) CHROME(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz)
+(II) CHROME(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz)
+(II) CHROME(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz)
+(II) CHROME(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+(II) CHROME(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+(II) CHROME(0): Modeline "1280x720"x60.0   74.48  1280 1336 1472 1664  720 721 724 746 -hsync +vsync (44.8 kHz)
+(II) CHROME(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+(II) CHROME(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+(II) CHROME(0): Modeline "1024x768"x66.0   71.63  1024 1080 1192 1360  768 769 772 798 -hsync +vsync (52.7 kHz)
+(II) CHROME(0): Modeline "1400x1050"x0.0  156.00  1400 1504 1648 1896  1050 1053 1057 1099 -hsync +vsync (82.3 kHz)
+(II) CHROME(0): Modeline "1440x900"x0.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz)
+(II) CHROME(0): ViaOutputsDetect
+(II) CHROME(0): VIATVDetect
+(II) CHROME(0): ViaOutputsSelect
+(II) CHROME(0): ViaOutputsSelect: X Configuration: 0x00
+(II) CHROME(0): ViaOutputsSelect: BIOS Initialised register: 0x00
+(II) CHROME(0): ViaOutputsSelect: CRT.
+(II) CHROME(0): ViaModesAttach
+(II) CHROME(0): Monitor0: Using hsync range of 30.00-83.00 kHz
+(II) CHROME(0): Monitor0: Using vrefresh range of 55.00-75.00 Hz
+(II) CHROME(0): Monitor0: Using maximum pixel clock of 140.00 MHz
+(II) CHROME(0): Estimated virtual size for aspect ratio 1.6087 is 1440x900
+(II) CHROME(0): Clock range:  20.00 to 230.00 MHz
+(II) CHROME(0): ViaValidMode: Validating 640x350 (31500)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "640x350" (vrefresh out of range)
+(II) CHROME(0): Not using default mode "320x175" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 640x400 (31500)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "640x400" (vrefresh out of range)
+(II) CHROME(0): Not using default mode "320x200" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 720x400 (35500)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "720x400" (vrefresh out of range)
+(II) CHROME(0): Not using default mode "360x200" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 640x480 (25175)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "320x240" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 640x480 (31500)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "320x240" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 640x480 (31500)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "320x240" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 640x480 (36000)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "640x480" (vrefresh out of range)
+(II) CHROME(0): Not using default mode "320x240" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 800x600 (36000)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "400x300" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 800x600 (40000)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "400x300" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 800x600 (50000)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "400x300" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 800x600 (49500)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "400x300" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 800x600 (56300)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "800x600" (vrefresh out of range)
+(II) CHROME(0): Not using default mode "400x300" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 1024x768 (44900)
+(II) CHROME(0): Not using default mode "1024x768" (interlace mode not supported)
+(II) CHROME(0): Not using default mode "512x384" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 1024x768 (65000)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "512x384" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 1024x768 (75000)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "512x384" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 1024x768 (78750)
+(II) CHROME(0): ViaModePrimaryVGAValid
+(II) CHROME(0): Not using default mode "512x384" (bad mode clock/interlace/doublescan)
+(II) CHROME(0): ViaValidMode: Validating 1024x768 (94500)
+(II) CHROME(0): Not using default mode "640x512" (bad mode clock/interlace/doublescan)
+	[0] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[1] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[2] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[3] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[4] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[5] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[6] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[7] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[8] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[9] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[10] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[11] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[12] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[13] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[14] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[15] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[16] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[17] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[18] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[19] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[20] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[21] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[22] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[23] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[24] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[25] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[26] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[27] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[28] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[29] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[30] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[31] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[32] -1	0	0xffffffff - 0xffffffff (0x1) MX[B]
+	[33] -1	0	0x000f0000 - 0x000fffff (0x10000) MX[B]
+	[34] -1	0	0x000c0000 - 0x000effff (0x30000) MX[B]
+	[35] -1	0	0x00000000 - 0x0009ffff (0xa0000) MX[B]
+	[36] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[37] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[38] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[39] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[40] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[41] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[42] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[43] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[44] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[45] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[46] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[47] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[48] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[49] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[50] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[51] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+	[52] -1	0	0x0000ffff - 0x0000ffff (0x1) IX[B]
+	[53] -1	0	0x00000000 - 0x00000000 (0x1) IX[B]
+(II) CHROME(0): VIAScreenInit
+(II) CHROME(0): VIAMapFB
+(--) CHROME(0): mapping framebuffer @ 0xc0000000 with size 0x8000000
+(--) CHROME(0): Frame buffer start: 0xaf9f6000, free start: 0x4f1a00 end: 0x8000000
+(II) CHROME(0): VIAMapMMIO
+(--) CHROME(0): mapping MMIO @ 0xfd000000 with size 0x9000
+(--) CHROME(0): mapping BitBlt MMIO @ 0xfd200000 with size 0x20000
+(II) CHROME(0): vgaHWGetIOBase: hwp->IOBase is 0x03d0, hwp->PIOOffset is 0x0000
+(II) CHROME(0): VIASave
+(II) CHROME(0): Primary
+(II) CHROME(0): Crtc...
+(II) CHROME(0): TVSave...
+(II) CHROME(0): VIAWriteMode
+(II) CHROME(0): ViaModePrimary
+(II) CHROME(0): ViaModePrimaryVGA
+(II) CHROME(0): ViaModePrimaryVGA: Setting up 1440x900
+(II) CHROME(0): CrtcHTotal: 0x770
+(II) CHROME(0): CrtcHDisplay: 0x5A0
+(II) CHROME(0): CrtcHBlankStart: 0x5A0
+(II) CHROME(0): CrtcHBlankEnd: 0x770
+(II) CHROME(0): CrtcHSyncStart: 0x5F0
+(II) CHROME(0): CrtcHSyncEnd: 0x688
+(II) CHROME(0): CrtcVTotal: 0x3A6
+(II) CHROME(0): CrtcVDisplay: 0x384
+(II) CHROME(0): CrtcVSyncStart: 0x387
+(II) CHROME(0): CrtcVSyncEnd: 0x38D
+(II) CHROME(0): CrtcVBlankStart: 0x384
+(II) CHROME(0): CrtcVBlankEnd: 0x3A6
+(II) CHROME(0): Offset: 0x2D0
+(II) CHROME(0): Fetch Count: 0x2D0
+(II) CHROME(0): ViaTVPower: Off.
+(II) CHROME(0): ViaSetPrimaryFIFO
+(II) CHROME(0): ViaSetPrimaryDotclock to 0x758802
+(II) CHROME(0): ViaSetUseExternalClock
+(II) CHROME(0): VIAAdjustFrame
+(II) CHROME(0): VIAAdjustFrame
+(II) CHROME(0): - Blanked
+drmOpenDevice: node name is /dev/dri/card0
+drmOpenDevice: node name is /dev/dri/card0
+drmOpenByBusid: Searching for BusID PCI:1:0:0
+drmOpenDevice: node name is /dev/dri/card0
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card1
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card2
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card3
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card4
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card5
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card6
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card7
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card8
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card9
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card10
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card11
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card12
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card13
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card14
+drmOpenByBusid: drmOpenMinor returns -1
+drmOpenDevice: node name is /dev/dri/card0
+drmOpenDevice: node name is /dev/dri/card0
+drmOpenDevice: node name is /dev/dri/card1
+drmOpenDevice: node name is /dev/dri/card2
+drmOpenDevice: node name is /dev/dri/card3
+drmOpenDevice: node name is /dev/dri/card4
+drmOpenDevice: node name is /dev/dri/card5
+drmOpenDevice: node name is /dev/dri/card6
+drmOpenDevice: node name is /dev/dri/card7
+drmOpenDevice: node name is /dev/dri/card8
+drmOpenDevice: node name is /dev/dri/card9
+drmOpenDevice: node name is /dev/dri/card10
+drmOpenDevice: node name is /dev/dri/card11
+drmOpenDevice: node name is /dev/dri/card12
+drmOpenDevice: node name is /dev/dri/card13
+drmOpenDevice: node name is /dev/dri/card14
+(EE) [drm] drmOpen failed.
+(EE) CHROME(0): [dri] DRIScreenInit failed.  Disabling DRI.
+(II) CHROME(0): - Visuals set up
+(II) CHROME(0): VIAInternalScreenInit
+(II) CHROME(0): - B & W
+(II) CHROME(0): Using 2700 lines for offscreen memory.
+(II) CHROME(0): Using XFree86 Acceleration Architecture (XAA)
+	Screen to screen bit blits
+	Solid filled rectangles
+	8x8 mono pattern filled rectangles
+	8x8 color pattern filled rectangles
+	Solid Lines
+	Dashed Lines
+	Image Writes
+	Setting up tile and stipple cache:
+		32 128x128 slots
+		21 256x256 slots
+		7 512x512 slots
+		32 8x8 color pattern slots
+(==) CHROME(0): Backing store disabled
+(II) CHROME(0): - Backing store set up
+(II) CHROME(0): - SW cursor set up
+(II) CHROME(0): VIAHWCursorInit
+(II) CHROME(0): - Def Color map set up
+(II) CHROME(0): VIALoadPalette
+(WW) CHROME(0): VIALoadPalette: Function not implemented for this chipset.
+(II) CHROME(0): - Palette loaded
+(II) CHROME(0): DPMS enabled
+(II) CHROME(0): - DPMS set up
+(II) CHROME(0): - Color maps etc. set up
+(II) CHROME(0): direct rendering disabled
+(II) CHROME(0): Benchmarking video copy.  Less time is better.
+(--) CHROME(0): Timed   libc YUV420 copy... 11250576. Throughput: 84.4 MiB/s.
+(--) CHROME(0): Timed kernel YUV420 copy... 11249664. Throughput: 84.4 MiB/s.
+(--) CHROME(0): Timed    SSE YUV420 copy... 7563656. Throughput: 125.5 MiB/s.
+(--) CHROME(0): Timed    MMX YUV420 copy... 7529936. Throughput: 126.1 MiB/s.
+(--) CHROME(0): Ditching 3DNow! YUV420 copy. Not supported by CPU.
+(--) CHROME(0): Timed   MMX2 YUV420 copy... 7561064. Throughput: 125.5 MiB/s.
+Freed 20741760 (pool 1)
+(--) CHROME(0): Using MMX YUV42X copy for video.
+(WW) CHROME(0): [XvMC] XvMC is not supported on this chipset.
+(II) CHROME(0): - Done
+(==) RandR enabled
+(II) Initializing built-in extension Generic Event Extension
+(II) Initializing built-in extension SHAPE
+(II) Initializing built-in extension MIT-SHM
+(II) Initializing built-in extension XInputExtension
+(II) Initializing built-in extension XTEST
+(II) Initializing built-in extension BIG-REQUESTS
+(II) Initializing built-in extension SYNC
+(II) Initializing built-in extension XKEYBOARD
+(II) Initializing built-in extension XC-MISC
+(II) Initializing built-in extension XINERAMA
+(II) Initializing built-in extension XFIXES
+(II) Initializing built-in extension RENDER
+(II) Initializing built-in extension RANDR
+(II) Initializing built-in extension COMPOSITE
+(II) Initializing built-in extension DAMAGE
+(II) AIGLX: Screen 0 is not DRI2 capable
+(II) AIGLX: Screen 0 is not DRI capable
+(II) AIGLX: Loaded and initialized /usr/lib/xorg/modules/dri/swrast_dri.so
+(II) GLX: Initialized DRISWRAST GL provider for screen 0
+(EE) XKB: Couldn't open rules file /etc/X11/xkb/rules/evdev
+(EE) XKB: No components provided for device Virtual core keyboard
+(WW) Couldn't load XKB keymap, falling back to pre-XKB keymap
+(II) config/hal: Adding input device Macintosh mouse button emulation
+(II) LoadModule: "evdev"
+(II) Loading /usr/lib/xorg/modules/input//evdev_drv.so
+(II) Module evdev: vendor="X.Org Foundation"
+	compiled for 1.6.3, module version = 2.2.5
+	Module class: X.Org XInput Driver
+	ABI class: X.Org XInput driver, version 4.0
+(**) Macintosh mouse button emulation: always reports core events
+(**) Macintosh mouse button emulation: Device: "/dev/input/event0"
+(II) Macintosh mouse button emulation: Found 3 mouse buttons
+(II) Macintosh mouse button emulation: Found x and y relative axes
+(II) Macintosh mouse button emulation: Configuring as mouse
+(**) Macintosh mouse button emulation: YAxisMapping: buttons 4 and 5
+(**) Macintosh mouse button emulation: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(II) XINPUT: Adding extended input device "Macintosh mouse button emulation" (type: MOUSE)
+(**) Macintosh mouse button emulation: (accel) keeping acceleration scheme 1
+(**) Macintosh mouse button emulation: (accel) filter chain progression: 2.00
+(**) Macintosh mouse button emulation: (accel) filter stage 0: 20.00 ms
+(**) Macintosh mouse button emulation: (accel) set acceleration profile 0
+(II) Macintosh mouse button emulation: initialized for relative axes.
+(II) config/hal: Adding input device ImPS/2 Generic Wheel Mouse
+(**) ImPS/2 Generic Wheel Mouse: always reports core events
+(**) ImPS/2 Generic Wheel Mouse: Device: "/dev/input/event5"
+(II) ImPS/2 Generic Wheel Mouse: Found 3 mouse buttons
+(II) ImPS/2 Generic Wheel Mouse: Found x and y relative axes
+(II) ImPS/2 Generic Wheel Mouse: Found scroll wheel(s)
+(II) ImPS/2 Generic Wheel Mouse: Configuring as mouse
+(**) ImPS/2 Generic Wheel Mouse: YAxisMapping: buttons 4 and 5
+(**) ImPS/2 Generic Wheel Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(II) XINPUT: Adding extended input device "ImPS/2 Generic Wheel Mouse" (type: MOUSE)
+(**) ImPS/2 Generic Wheel Mouse: (accel) keeping acceleration scheme 1
+(**) ImPS/2 Generic Wheel Mouse: (accel) filter chain progression: 2.00
+(**) ImPS/2 Generic Wheel Mouse: (accel) filter stage 0: 20.00 ms
+(**) ImPS/2 Generic Wheel Mouse: (accel) set acceleration profile 0
+(II) ImPS/2 Generic Wheel Mouse: initialized for relative axes.
+(II) config/hal: Adding input device AT Translated Set 2 keyboard
+(**) AT Translated Set 2 keyboard: always reports core events
+(**) AT Translated Set 2 keyboard: Device: "/dev/input/event1"
+(II) AT Translated Set 2 keyboard: Found keys
+(II) AT Translated Set 2 keyboard: Configuring as keyboard
+(II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "evdev"
+(**) Option "xkb_layout" "us"
+(**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+(EE) XKB: Couldn't open rules file /etc/X11/xkb/rules/evdev
+(EE) XKB: No components provided for device AT Translated Set 2 keyboard
+(WW) Couldn't load XKB keymap, falling back to pre-XKB keymap
+(II) Macintosh mouse button emulation: Close
+(II) UnloadModule: "evdev"
+(II) ImPS/2 Generic Wheel Mouse: Close
+(II) UnloadModule: "evdev"
+(II) AT Translated Set 2 keyboard: Close
+(II) UnloadModule: "evdev"
+(II) CHROME(0): VIACloseScreen
+(II) CHROME(0): VIARestore
+(II) CHROME(0): ViaDisablePrimaryFIFO
+(II) CHROME(0): VIAUnmapMem
