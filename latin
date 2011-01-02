@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+WORDSPATH=/home/jfo/.vim/words-1.97Ed # 
+( cd $WORDSPATH ; ./words $*
+

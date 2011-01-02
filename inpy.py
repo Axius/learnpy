@@ -19,14 +19,14 @@
 #myfile.write("Si vis pace, para bellum\n")
 #myfile.close()
 
-#myfile = open("writenote", "w")
-#print >> myfile, """Amor omnia vincit; si vis pace , para bellum; si vis amari
-#ama"""
+myfile = open("writenote", "w")
+print >> myfile, """Amor omnia vincit. Si vis pace, para bellum. Si vis amari
+ama"""
 #myfile.close()
 
 
-f = open('writenote', 'rU')
-for line in f:
-    print line,
-    f.close
-
+#f = open('writenote', 'rU')
+#for line in f:
+#print lin
+#   f.close
+#
